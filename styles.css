@@ -1,0 +1,26 @@
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+#board {
+    max-width: 640px;
+    min-width: 320px;
+    float: none;
+    margin: auto;
+}
+
+.square {
+    background-color: #FFF;
+    border: 2px solid black;
+    outline: none;
+    width: 30%;
+    padding: 10px; 0;
+    margin-bottom: 5px;
+    font-size: 110px;
+    font-weight: 900;
+}
+
+.square:hover {
+    background-color: yellow;
+}
